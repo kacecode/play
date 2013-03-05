@@ -1,0 +1,151 @@
+<div class="post-128 post type-post status-publish format-standard hentry category-general tag-beautifulsoup tag-django tag-mechanize tag-python clear" id="post-128">
+<h2><a href="http://www.purplestate.info/2013/03/python-django/" rel="bookmark" title="Permanent Link to Python and Frameworks">Python and Frameworks</a></h2>
+<div class="col140 postInfos">
+<p><strong>03 Mar 2013</strong> at 05:18</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a></p>
+<p><a href="http://www.purplestate.info/2013/03/python-django/#respond" title="Comment on Python and Frameworks">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>Earlier today I sat down for a bit to mess with <a href="https://pypi.python.org/pypi/mechanize/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);">Mechanize</a> for Python. It's a library/tool for emulating web requests, allowing me to programatically look up sites. A nice tool to go along with it, <a href="http://www.crummy.com/software/BeautifulSoup/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.crummy.com']);">BeautifulSoup</a>. This one is a scraper, making grabbing specific parts of the DOM easy. Fun stuff!</p>
+<p>Playing with <a href="https://www.djangoproject.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.djangoproject.com']);">Django</a> tonight. It is slick. Looking at whipping up a quick test implementation - update should follow, homework willing.</p>
+</div>
+</div>
+<div class="post-126 post type-post status-publish format-standard hentry category-projects tag-php clear" id="post-126">
+<h2><a href="http://www.purplestate.info/2013/02/php-dynamic-project-display/" rel="bookmark" title="Permanent Link to PHP - Dynamic Project Display">PHP - Dynamic Project Display</a></h2>
+<div class="col140 postInfos">
+<p><strong>25 Feb 2013</strong> at 12:24</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/projects/" rel="category tag" title="View all posts in Projects">Projects</a></p>
+<p><a href="http://www.purplestate.info/2013/02/php-dynamic-project-display/#respond" title="Comment on PHP - Dynamic Project Display">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>I've finally had some time to work through some of my old backups and repos - I'll be upping some of those old projects here to preserve them.</p>
+<p>The first of this bunch comes from a few years back, on the first iteration of purplestate. At the time, I was working on a number of web projects and it became tedious to remember the locations to each of them. I built a PHP script to parse a given folder and output an index of the folders it could find.</p>
+<p>I found I had projects I didn't want public yet, so I added the ability to suppress folders from being listed. From there, I also made it so that if, in the place of suppression, you put a string, it would become the linked text in the output, so projects could have less obscure names without my folders becoming a pain.</p>
+<p> </p>
+<p>I'm not using this anymore, but I've uploaded the script to github publicly, and the source is available there. <a href="https://github.com/DivinusVox/DynamicDirectory" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">DynamicDirectory via Github</a>.</p>
+</div>
+</div>
+<div class="post-124 post type-post status-publish format-standard hentry category-projects tag-c tag-datomic tag-edn clear" id="post-124">
+<h2><a href="http://www.purplestate.info/2013/02/introducing-datomic-to-csharp-net/" rel="bookmark" title="Permanent Link to Introducing Datomic to C#.NET">Introducing Datomic to C#.NET</a></h2>
+<div class="col140 postInfos">
+<p><strong>24 Feb 2013</strong> at 03:08</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/projects/" rel="category tag" title="View all posts in Projects">Projects</a></p>
+<p><a href="http://www.purplestate.info/2013/02/introducing-datomic-to-csharp-net/#respond" title="Comment on Introducing Datomic to C#.NET">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>There's a new project brewing. A recent conversation has started me on an implementation of Datomic via EDN parsing with C#.NET.</p>
+<p><a href="http://www.datomic.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.datomic.com']);" target="_blank">Datomic</a> is a modern data management system that works to seamlessly integrate into a programming implementation, serializing and de-serializing data into entities with related facts, which are stored with time elements, allowing one to parse prior states.</p>
+<p>Getting into the meat of the implementation has been a challenge. Datomic relies on <a href="https://github.com/edn-format/edn" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);" target="_blank">EDN</a> as a standard for serialization, and it was designed with functional languages in mind. Type safety in C style languages is a huge hurdle to overcome in transforming the data between the systems, giving that seamless feel.</p>
+<p>I'll post updates as I go along. <img alt=":)" class="wp-smiley colorbox-124" src="http://www.purplestate.info/wp-includes/images/smilies/icon_smile.gif"/> </p>
+</div>
+</div>
+<div class="post-112 post type-post status-publish format-standard hentry category-general tag-c tag-os-theory clear" id="post-112">
+<h2><a href="http://www.purplestate.info/2013/02/os-theory-disk-usage-simulation/" rel="bookmark" title="Permanent Link to OS Theory - Disk Usage Simulation">OS Theory - Disk Usage Simulation</a></h2>
+<div class="col140 postInfos">
+<p><strong>22 Feb 2013</strong> at 05:43</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a></p>
+<p><a href="http://www.purplestate.info/2013/02/os-theory-disk-usage-simulation/#respond" title="Comment on OS Theory - Disk Usage Simulation">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>Our third project has rolled around and I was tasked with writing a program to compare the relative efficiency of various common disk scheduling algorithms in a variety of scenarios.</p>
+<p>The proof is in the pudding - a queue is not efficient. Ever.</p>
+</div>
+</div>
+<div class="post-115 post type-post status-publish format-standard hentry category-general category-projects tag-python clear" id="post-115">
+<h2><a href="http://www.purplestate.info/2013/02/python-word-search/" rel="bookmark" title="Permanent Link to Python - Word Search">Python - Word Search</a></h2>
+<div class="col140 postInfos">
+<p><strong>14 Feb 2013</strong> at 12:43</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a>, <a href="http://www.purplestate.info/category/projects/" rel="category tag" title="View all posts in Projects">Projects</a></p>
+<p><a href="http://www.purplestate.info/2013/02/python-word-search/#respond" title="Comment on Python - Word Search">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>The second Python project has come and gone. I am really enjoying that this class gives you a more challenging set of problems to think about. One of the keys was that I must define a word search puzzle object - which in most classes would be just that, build the object, turn it in.</p>
+<p>Not Durney, though. He's brought in the same Word Search project from his Java course. I am glad to be back in a functional language, evidenced by my word search class passing directional functions around as parameters to generate sub-strings for comparison. I am so spoiled compared to OS Theory's C projects. <img alt=":)" class="wp-smiley colorbox-115" src="http://www.purplestate.info/wp-includes/images/smilies/icon_smile.gif"/> </p>
+<p><a href="http://www.purplestate.info/wp-content/uploads/2013/02/wordSearch1.jpg"><img alt="" class="alignnone size-medium wp-image-119 colorbox-115" height="234" src="http://www.purplestate.info/wp-content/uploads/2013/02/wordSearch1-300x234.jpg" title="wordSearch" width="300"/></a></p>
+<p> </p>
+<p><a href="http://www.purplestate.info/downloads/wordsearch.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.purplestate.info/downloads/wordsearch.zip']);">Check it out</a> if you would like to. I enjoy feedback.</p>
+</div>
+</div>
+<div class="post-110 post type-post status-publish format-standard hentry category-uncategorized tag-os-theory clear" id="post-110">
+<h2><a href="http://www.purplestate.info/2013/02/os-theory-du/" rel="bookmark" title="Permanent Link to OS Theory - du">OS Theory - du</a></h2>
+<div class="col140 postInfos">
+<p><strong>12 Feb 2013</strong> at 15:15</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/uncategorized/" rel="category tag" title="View all posts in Uncategorized">Uncategorized</a></p>
+<p><a href="http://www.purplestate.info/2013/02/os-theory-du/#respond" title="Comment on OS Theory - du">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>Next on deck, the program 'du'. Very luckily, we don't have to implement every flag the command supports. I'm essentially emulating the human readable version's output.</p>
+<p>After having turned it in, I realize I forgot to check for link objects as I iterate folders. By default, I believe they are treated as sub folders and there is potential for an infinite loop because of it. C'est la vie.</p>
+</div>
+</div>
+<div class="post-108 post type-post status-publish format-standard hentry category-uncategorized clear" id="post-108">
+<h2><a href="http://www.purplestate.info/2013/01/os-theory-cat/" rel="bookmark" title="Permanent Link to OS Theory - cat">OS Theory - cat</a></h2>
+<div class="col140 postInfos">
+<p><strong>25 Jan 2013</strong> at 05:30</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/uncategorized/" rel="category tag" title="View all posts in Uncategorized">Uncategorized</a></p>
+<p><a href="http://www.purplestate.info/2013/01/os-theory-cat/#respond" title="Comment on OS Theory - cat">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>Our first assignment in OS Theory was re-implementing the 'cat' command of *nix fame.</p>
+<p>This not being specifically a language course, we are not restricted (as we usually are in such courses) to not using external libraries. With a lot of research and plenty of trial and error (“segmentation fault - core dumped” anyone?). I brought the program to a close.</p>
+<p>My professor's response? - 'Well played'</p>
+<p>I am bemused.</p>
+</div>
+</div>
+<div class="post-106 post type-post status-publish format-standard hentry category-general tag-c tag-os-theory tag-python clear" id="post-106">
+<h2><a href="http://www.purplestate.info/2013/01/spring-2013/" rel="bookmark" title="Permanent Link to Spring 2013">Spring 2013</a></h2>
+<div class="col140 postInfos">
+<p><strong>22 Jan 2013</strong> at 05:20</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a></p>
+<p><a href="http://www.purplestate.info/2013/01/spring-2013/#respond" title="Comment on Spring 2013">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>The winter break was definitely not long enough! The whole family got sick with some super flu that lingered on for ~3 weeks. What a waste of productivity.</p>
+<p>Anywho, semester is started and it should be a busy one. This is my first semester with my wife graduated (no kids on campus), so I'm loading up on credits. I have 3 upper division CS classes:</p>
+<ul>
+<li>Operating Systems Theory</li>
+<li>Advanced C#</li>
+<li>Python</li>
+</ul>
+<p>OS Theory has already promised to have us re-writing GNU utilities in C, which I'm not sure I like. It should be an experience either way.</p>
+<p>C# is fairly straight forward, looking at Windows Forms/WPF and the language constructs. Later we move into more advanced topics like threading, LINQ, and other Microsoft services.</p>
+<p>Python is being taught for the first time by the professor in charge of video game design for the school and looks like it should be fun (if challenging). Our 'hello world' assignment involves file IO and data analysis, which is a pretty sharp difficulty increase over most beginning assignments.</p>
+</div>
+</div>
+<div class="post-103 post type-post status-publish format-standard hentry category-general clear" id="post-103">
+<h2><a href="http://www.purplestate.info/2012/12/semesters-end/" rel="bookmark" title="Permanent Link to Semester's End">Semester's End</a></h2>
+<div class="col140 postInfos">
+<p><strong>04 Dec 2012</strong> at 19:04</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a></p>
+<p><a href="http://www.purplestate.info/2012/12/semesters-end/#respond" title="Comment on Semester's End">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>This semester went by very quickly. I had meant to work on my side projects more, and keep track of my progress on here more, but time just didn't seem to allow.</p>
+<p>The fitness test site went alright. Early hitches in getting people trained on various languages so that they could start contributing caused a lot of the production to be hurried towards the end of our time. The Android app had to be scraped, but was replaced with a light-weight SMS system that projected users links back to their workout entries (via their browsers). Data analytics ended up not being finished by our presentation date due to issues implementing the library. All told, it was not a bad experience, though I wish the overall level of expertise had been higher from the get-go. Most groups had a few individuals with background knowledge to pull the group along, and seemed to have a much easier go of it.</p>
+<p>Database had me using MS Access, MySQL, and Oracle for various projects. In a group project, a partner and I built a management system for the apartment complex he works at, tracking tenants from application on through residency, as well as complex maintenance. We later had to convert the project into an object oriented design in Oracle, that I'm not sure I fully understand the purpose of. At least in our short time playing with it, the object encapsulation only seemed to add a layer of complexity to the system.</p>
+<p>As to Java, plenty of fun projects. The language itself is fine, but I really dislike the Swing UI components - I spent far too long Googling, only to find that object x had internal function y that had to be called prior to render. I am growing fonder of Visual Studio's GUI building tools.</p>
+</div>
+</div>
+<div class="post-101 post type-post status-publish format-standard hentry category-general tag-software-engineering clear" id="post-101">
+<h2><a href="http://www.purplestate.info/2012/10/software-engineering-group-project/" rel="bookmark" title="Permanent Link to Software Engineering Group Project">Software Engineering Group Project</a></h2>
+<div class="col140 postInfos">
+<p><strong>02 Oct 2012</strong> at 12:54</p>
+<p><strong>kacey</strong></p>
+<p><a href="http://www.purplestate.info/category/general/" rel="category tag" title="View all posts in General">General</a></p>
+<p><a href="http://www.purplestate.info/2012/10/software-engineering-group-project/#respond" title="Comment on Software Engineering Group Project">No Comments</a></p>
+</div>
+<div class="col460 postContent clear">
+<p>Spent this past week researching and finding hosting for the group project. We're rolling with <a href="http://phpfog.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://phpfog.com']);">PHPFog</a>. I was tempted to just throw up another <a href="http://aws.amazon.com/ec2/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://aws.amazon.com']);">EC2</a> instance, but I didn't want to personally pay for my class project's hosting, and I really don't want to have to deal with administration and setting up users for the group.</p>
+<p> </p>
+<p>Put the team to work on learning some HTML the hard way (albeit with some training documentation I've put together), and I'm working on getting them proficient with Git and CMS in general. Overcoming this knowledge barrier is going to be key to getting this project rolling.</p>
+</div>
+</div>
